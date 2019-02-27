@@ -1,3 +1,12 @@
+#Directus-React-Grommet-template
+
+A simple boilerplate for starting react projects withdirectus and grommet
+
+
+
+You can setup directus cms by running 
+```docker-compose up```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
