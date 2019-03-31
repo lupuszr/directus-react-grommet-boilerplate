@@ -3,7 +3,7 @@ import { Grommet, Box, Button } from 'grommet';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import theme from './theme';
-import { Home, News } from './pages';
+import { Home, News, ShowNews } from './pages';
 
 class App extends Component {
   render() {
@@ -19,6 +19,7 @@ class App extends Component {
             />
           </Box>
           <Route exact path="/" component={Home} />
+          <Route path="/news/:id" component={ShowNews} />
           <Route path="/news" component={News} />
         </Grommet>
       </Router>
